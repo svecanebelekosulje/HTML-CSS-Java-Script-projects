@@ -1,0 +1,238 @@
+fieldset {
+	background-color:#d5e4f0;
+	border:2px solid black;
+}
+
+body {
+	background-color:#dbdbdb;
+}
+.title {
+	color:#00b289;
+	font-size:40px;
+}
+
+.login {
+	color:#00b289;
+	border-radius:#00b289;
+	background-color:#fff;
+	width:100px;
+	height:30px;
+}
+
+.startfree {
+	
+	color:#fff;
+	background-color:#00b289;
+	width:100px;
+	height:30px;
+	
+}
+
+.plan {
+	margin-left:200px;
+	font-size:30px;
+	
+}
+
+.holder {
+	display: flex;
+	
+}
+
+.free {
+	margin-left:600px;
+	
+}
+
+.free h5 {
+	font-size:15px;
+	color:#00b289;
+
+}
+
+.holder1 {
+	display:flex;
+}
+
+.work {
+	margin-left:200px;
+	border:2px solid black;
+	width:400px;
+	height:650px;
+	padding-left:40px;
+}
+.work p {
+	font-size:30px;
+}
+
+.work h4 {
+	font-size:30px;
+}
+
+hr {
+	color:#00b289;
+	text-align:center;
+	width:350px;
+
+}
+
+.start {
+	
+	color:#fff;
+	background-color:#00b289;
+	width:170px;
+	height:50px;
+	
+}
+
+.plus {
+	margin-left:200px;
+	border: 2px solid black;
+	width:400px;
+	height:650px;
+	
+}
+
+.plus h4 {
+	font-size:30px;
+	padding-left:40px;
+}
+
+.plus p {
+	font-size:30px;
+	padding-left:40px;
+}
+
+.new {
+	color:white;
+	background-color:#f8db62;
+	font-weight:bold;
+}
+
+p {
+	font-size:25px;
+}
+
+.collaborators h4 {
+	font-size:25px;
+}
+
+.collaborators p {
+	font-size:20px;
+}
+
+.collaborators {
+  border: 1px solid black;
+  padding-left:100px;
+  background-color:white;
+}
+
+.frr {
+	font-size:40px;
+}
+
+.partners h4 {
+	font-size:25px;
+}
+
+.partners p {
+	font-size:20px;
+}
+
+.tax {
+  border: 1px solid black;
+  padding-left:100px;
+  background-color:white;
+}
+
+.partners {
+  border: 1px solid black;
+  padding-left:100px;
+  background-color:white;
+}
+
+.tax h4 {
+	font-size:25px;
+}
+
+.tax p {
+	font-size:20px;
+}
+
+.tax H5 {
+	color:#00b289;
+
+}
+
+.business {
+	 background-color:#d5e4f0;
+	 width:700px;
+	 height:250px;
+	 font-size:30px;
+	 margin-left:250px;
+	 padding-left:70px;
+}
+
+.x {
+   color:#00b289;
+}
+
+.holder4 {
+	display:flex;
+}
+
+.ran {
+	background-color:#d5e4f0;
+	padding-top:100px;
+	padding-right:100px;
+	
+}
+
+.business p {
+	font-size:30px;
+}
+
+.questions {
+	margin-left:600px;
+}
+
+.wtf {
+	margin-left:400px;
+}
+
+.product {
+	margin-left:200px;
+}
+
+.product h3 {
+	font-size:20px;
+}
+
+.product  p {
+	font-size:15px;
+}
+
+.resources {
+	margin-left:400px;
+}
+
+.resources p {
+	font-size:15px;
+}
+
+.resources h3 {
+	font-size:20px;
+}
+
+
+.bonsai {
+	margin-left:300px;
+}
+
+.bonsai p {
+	font-size:15px;
+}
+
+.bonsai h3 {
+	font-size:20px;
+}
