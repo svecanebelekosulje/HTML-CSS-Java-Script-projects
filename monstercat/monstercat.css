@@ -1,0 +1,93 @@
+.tr {
+    position: relative;
+    background-image: url(https://i1.sndcdn.com/artworks-9g7OOLViMCqzKtL4-eTfMyA-t500x500.jpg), linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+	display:flex;
+	width:1500px;
+}
+
+img {
+    margin-top: 80px;
+    margin-left: 80px;
+    opacity: 1;
+	
+}
+
+.green {
+	color:#00b289;
+}
+
+.desc {
+	font-size:40px;
+	margin-top:40px;
+	color:black;
+	font-weight:bold;
+}
+
+.listen {
+	background-color:#00b289;
+	color:white;
+	font-weight:bold;
+	width:180px;
+	height:40px;
+}
+
+.share {
+	width:100px;
+	height:40px;
+	font-weight:bold;
+	color:white;
+	background-color:black;
+
+}
+
+.black {
+	background-color:black;
+	color:white;
+	width:1500px;
+	box-shadow: 5px 5px 60px 40px black;
+
+}
+
+.black h1{
+	font-size:40px;
+}
+
+.min {
+	text-align:right;
+	margin-bottom:50px;
+	margin-left:700px;
+	margin-top:20px;
+}
+
+.container {
+	display:flex;
+}
+
+.feeling {
+	margin-left:80px;
+}
+
+hr {
+	width:80%;
+}
+
+.x {
+	margin-left:140px;
+}
+
+.y {
+	margin-left:140px;
+	margin-top:20px;
+}
+
+#email {
+	color:white;
+	background-color:black;
+	width:180px;
+}
+
+.gray {
+	color:#999999;
+}
