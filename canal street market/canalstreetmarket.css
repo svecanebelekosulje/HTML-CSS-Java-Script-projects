@@ -1,0 +1,180 @@
+
+
+header p {
+	font-size:60px;
+    margin-left:20px;
+	padding-top:190px;
+}
+
+.img {
+	width:1300px;
+	height:800px;
+    padding-bottom:190px;
+}
+
+.new {
+  font-size:70px;
+  margin-left:20px;
+}
+
+.img1 {
+	width:400px;
+	height:500px;
+	margin-left:20px;
+}
+
+figcaption {
+	margin-left:40px;
+	font-family:cursive;
+	margin-top:10px;
+}
+
+.holder {
+	display:flex;
+	
+}
+
+
+#one {
+	background-color:#5ea3ec;
+	border-color:#5ea3ec;
+	width: 90px; 
+    height: 700px;  
+	margin-left:500px;
+	writing-mode: vertical-rl;
+	text-align:center;
+	font-size:30px;
+    
+}
+
+#two {
+	background-color:#f64444;
+	border-color:#f64444;
+	width: 90px; 
+    height: 700px;  
+	margin-left:0 ;
+	writing-mode: vertical-rl;
+	text-align:center;
+	font-size:30px;
+}
+
+#three {
+	background-color:#ffb400;
+	border-color:#ffb400;
+	width: 90px; 
+    height: 700px;  
+	justify-content:center;
+	margin-left:0;
+	margin-right:40px;
+	align-items:center;
+	writing-mode: vertical-rl;
+	text-align:center;
+	font-size:30px;
+	
+}
+
+.holder1 {
+	display:flex;
+	width:150px;
+	height:700px;
+	margin-left:600px;
+}	
+
+#one, #two, #three {
+	width: 90px; 
+    height: 700px;  
+    margin: 0; /* Uklanja sve margine između elemenata */
+	writing-mode: vertical-rl;
+	text-align:center;
+	font-size:30px;
+}
+
+h2 {
+	font-size:60px;
+	text-align:center;
+	
+}
+
+hr {
+	border:none;
+	border-top:dotted 2px black;
+	margin:20px 0;
+	width:70%;
+	align-items:center;
+	justify-content:center;
+	margin-left:150px;
+}
+
+.o2o7, .i211 {
+	font-size:25px;
+	font-family:cursive;
+	margin-left:80px;
+}
+
+.i211 {
+	margin-left:150px;
+}
+
+button {
+	background-color:white;
+	color:black;
+	border-color:black;
+	width:180px;
+	height:50px;
+}
+
+.dotted {
+	border:2px dotted black;
+	width:900px;
+	height:200px;
+	margin-left:200px;
+	font-size:40px;
+	text-align:center;
+}
+
+.hr {
+	width:80%;
+	border:none;
+	border-top:5px dotted black;
+	align-items:center;
+	justify-content:center;
+	margin-left:150px;
+}
+
+.dotted1 {
+	border:2px dotted black;
+	width:300px;
+	height:200px;
+	margin-left:150px;
+	font-size:20px;
+	text-align:center;
+	align-items:center;
+	justify-content:center;
+}
+
+fieldset {
+	border:5px dotted black;
+}
+
+.meow {
+	font-family:cursive;
+	font-size:30px;
+	padding-left:100px;
+}
+
+.aww {
+	padding-left:600px;
+	padding-top:70px;
+}
+
+.copyright {
+	font-size:20px;
+	font-family:cursive;
+	margin-left:100px;
+}
+
+.site {
+	font-size:20px;
+	font-family:cursive;
+	margin-left:300px;
+}
