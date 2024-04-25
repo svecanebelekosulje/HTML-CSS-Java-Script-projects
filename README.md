@@ -1,7 +1,9 @@
 <html>
 <head></head>
 <body>
-<h1>15 years old<br>
-wanna be a programmer</h1>
+  <center>
+<p>15 years old<br>
+wanna be a programmer</p>
+  </center>
   </body>
 </html>
