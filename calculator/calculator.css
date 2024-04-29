@@ -1,0 +1,47 @@
+#calculator {
+	background-color: #dddddd;
+	position: absolute;
+    top: 20%;
+    left: 40%;
+	height: 400px;
+	width: 380px;
+}
+	
+#txt {
+	width: 350px;
+	height: 30px;
+	border-radius: 12px;
+	margin-left: 10px;
+}
+
+
+#del {
+	background-color: red;
+	color: white;
+	width: 70px;
+	height: 40px;
+}
+
+#division, #multiplication, #substraction, #addition {
+	background-color: #224de0;
+	color: white;
+	width: 70px;
+	height: 40px;
+}
+
+#seven, #eight, #nine, 
+#four, #five, #six, 
+#one, #two, #three, 
+#zero, #comma {
+	width: 70px;
+	height: 40px;
+}
+
+#equal {
+	width: 120px;
+	height: 50px;
+	transform: rotate(90deg);
+	margin-left: 50px;
+	background-color: #49de8d;
+	color: white;
+}
