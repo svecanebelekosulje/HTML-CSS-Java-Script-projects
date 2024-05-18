@@ -1,0 +1,73 @@
+body {
+	background-color: black;
+}
+
+#container, #thankYouMessage {
+	color: white;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	background-color: #000066;
+	padding: 20px 20px 30px 20px;
+	border-radius: 12px;
+}
+
+img {
+	background-color: #7F7FB2;
+	width: 30px;
+	border-radius: 50px;
+	padding: 5px 5px 5px 5px;
+}
+
+#one, #two, #three, #four, #five {
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+	background-color: #7F7FB2;
+	border-color: #7F7FB2;
+	color: white;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+#submit {
+	background-color: #FF8000;
+	border-color: #FF8000;
+	width: 300px;
+	height: 35px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #submit:hover {
+	background-color: white;
+	color: black;
+	border-color: white;
+}
+
+#thankYouMessage {
+	display: none;
+}
+
+#image {
+	width: 200px;
+	height: 100px;
+}
+
+#selectingResult {
+	font-weight: bold;
+}
+
+#tellingTheResult {
+	display: block;
+	background-color: #7F7FB2;
+	color: darkred;
+	width: 80%;
+	border-radius: 12px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
