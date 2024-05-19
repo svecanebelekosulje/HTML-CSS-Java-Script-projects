@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset='utf-8'>
+   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+   <title>CONTACT FROM MAIN</title>
+   <link rel='stylesheet' href='contactfrommain.css'>
+   
+</head>
+<body>
+
+ <div id='container'>
+ <h2>Contact Us</h2>
+  
+  <div id='firstAndLastName'>
+  <div>
+  <label>First Name</label><br>
+  <input type='text' id='firstName' required>
+  </div>
+  <div>
+  <label id='label1'>Last Name</label><br>
+  <input type='text' id='lastName' required>
+  </div>
+  </div>
+  
+  <br>
+  
+  <label>Email Address</label>
+  <br><br>
+  <input type='email' id='emailAddress' required>
+  
+  <br><br>
+  
+  <label>Query Type</label>
+  
+  <br>
+  <br>
+  <div id='qanswers'>
+  <div id='query1'>
+  <fieldset>
+  <input type='radio' name='query'>
+  General Enquiry
+  </fieldset>
+  </div>
+  <br>
+  <div id='query2'>
+  <fieldset>
+  <input type='radio' name='query'>
+  Support Request
+  </fieldset>
+  </div>
+  </div>
+  
+  <br>
+  
+  <label>Message</label><br><br>
+  <textarea id='message' required></textarea>
+  
+  <br><br>
+  
+  <input type='radio' required>
+  I consent to being contacted by the team
+  
+  <br><br><br>
+  <center>
+  <button id='submit'>Submit</button>
+  </center>
+ 
+ </div>
+ 
+ <div id='alert'>
+ <h1>Message sent</h1>
+ <p>Thanks for completing the form. We'll be in touch soon!</p>
+ </div>
+  <script src='contactfrommain.js'></script>
+  
+</body>
+</html>
