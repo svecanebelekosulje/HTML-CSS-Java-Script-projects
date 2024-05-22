@@ -1,0 +1,129 @@
+body {
+	
+	background-color: #89CFF0;
+}
+
+#question0{
+	background-color: white;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 12px;
+	height: 200px;
+	margin-top: 200px;
+	padding-left: 1em;
+}
+
+ p {
+	font-size: 20px;
+}
+
+#startBtn, #next1, #next2, #next3, #next4, #next5, #next6{
+	background-color: #009933;
+	border-color: #009933;
+	color: white;
+	width: 60px;
+	height: 30px;
+}
+
+#next1, #next2, #next3, #next4, #next5, #next6 {
+	display: none;
+}
+
+#question1 {
+    background-color: white;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 12px;
+	height: 250px;
+	padding-left: 1em;
+	margin-top: 200px;
+	display: none;
+}
+
+
+#question2 {
+	background-color: white;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 12px;
+	height: 250px;
+	padding-left: 1em;
+	margin-top: 200px;
+	display: none;
+}
+
+#variable1, #variable2, 
+#variable3, #variable4, 
+#array1, #array2, #array3, #array4, 
+#operator1, #operator2, 
+#operator3, #operator4, 
+#method1, #method2, #method3, #method4, 
+#function1, #function2,
+#function3, #function4, 
+#var, #let, #const, #all {
+	width: 220px;
+	border-color: black;
+}
+
+#question3 {
+	background-color: white;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 12px;
+	height: 250px;
+	padding-left: 1em;
+	margin-top: 200px;
+	display: none;
+}
+
+#question4 {
+	background-color: white;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 12px;
+	height: 260px;
+	padding-left: 1em;
+	margin-top: 200px;
+	display: none;
+}
+
+#question5 {
+	background-color: white;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 12px;
+	height: 260px;
+	padding-left: 1em;
+	margin-top: 200px;
+	display: none;
+}
+
+#question6 {
+	background-color: white;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 12px;
+	height: 260px;
+	padding-left: 1em;
+	margin-top: 200px;
+	display: none;
+}
+
+#finished {
+	background-color: white;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 12px;
+	height: 300px;
+	padding-left: 1em;
+	margin-top: 200px;
+	display: none;
+}
