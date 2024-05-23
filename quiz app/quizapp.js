@@ -282,6 +282,8 @@ nextBtn6.addEventListener('click', q6ToFinished);
 
 //RESTART
 const clickOnRestartBtn = () => {
+	score = 0;
+	
 	finished.style.display = 'none';
 	question1.style.display = 'block';
     question2.style.display = 'none';
