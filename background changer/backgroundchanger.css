@@ -1,0 +1,45 @@
+body {
+	font-size: 25px;
+	background-color: #dddddd;
+	margin-top: 200px;
+}
+
+#container {
+	background-color: white;
+	width: 60%;
+	height: 100px;
+}
+
+button {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	margin-left: 30px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#darkmode {
+	background-color: black;
+	border-color: black;
+}
+
+#purple {
+	background-color: #660066;
+	border-color: #660066;
+}
+
+#darkblue {
+	background-color: #000066;
+	border-color: #000066;
+}
+
+#red {
+	background-color: #800000;
+	border-color: #800000;
+}
+
+#pink {
+	background-color: #660033;
+	border-color: #660033;
+}
