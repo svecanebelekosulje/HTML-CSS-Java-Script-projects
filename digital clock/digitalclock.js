@@ -4,12 +4,12 @@ const seconds = document.getElementById('seconds');
 
 const updateTime = () => {
 	let now = new Date();
-	let hoursDisplay = now.getHours();
-	let minutesDisplay = now.getMinutes();
-	let secondsDisplay = now.getSeconds();
+	let hoursDisplay = now.getHours().toString().padStart(2, '0');
+	let minutesDisplay = now.getMinutes().toString().padStart(2, '0');
+	let secondsDisplay = now.getSeconds().toString().padStart(2, '0');
 	hours.innerHTML = hoursDisplay;
-    minutes.innerHTML = minutesDisplay;
-    seconds.innerHTML = secondsDisplay;
+        minutes.innerHTML = minutesDisplay;
+        seconds.innerHTML = secondsDisplay;
 	
 }
 
