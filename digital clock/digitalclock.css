@@ -1,0 +1,27 @@
+body {
+	background-image: url('file:///C:/Users/STRONG/Downloads/digitalclock.jpg');
+	color: white;
+	margin-top: 200px;
+	font-size: 40px;
+}
+
+#title {
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+}
+
+fieldset {
+	width: 100px;
+	margin-left: 10px;
+}
+
+#hours, #minutes, #seconds {
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 3px;
+}
