@@ -1,0 +1,58 @@
+body {
+	background-color: #ffccff;
+	background-image: url('C:/Users/STRONG/Downloads/faq-accordion-main/assets/images/background-pattern-desktop.svg');
+	background-size: 1600px 360px;
+	background-repeat: no-repeat;
+}
+
+#container {
+	background-color: white;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	border-radius: 10px;
+}
+
+#title, #q1, #q2, #q3, #q4 {
+	display: flex;
+	padding-left: 20px;
+}
+
+
+#q1:hover, #q2:hover, #q3:hover, #q4:hover {
+	color: #cc00ff;
+	cursor: pointer;
+}
+#a1image {
+	margin-left: 150px;
+}
+
+#a2image {
+	margin-left: 360px;
+}
+
+#a3image {
+	margin-left: 135px;
+}
+
+#a4image {
+	margin-left: 195px;
+}
+
+#a1, #a2, #a3, #a4 {
+	padding-left: 20px;
+	font-size: 19px;
+	display: none;
+	
+}
+
+hr {
+	margin-left: 20px;
+	width: 60%;
+	margin-right: 300px;
+}
+
+a {
+	color: black;
+}
