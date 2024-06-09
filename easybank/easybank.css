@@ -1,0 +1,149 @@
+#nav {
+	display: flex;
+	position: absolute;
+}
+
+#home{
+	margin-left: 500px;
+}
+
+#about, #contact, #blog, #careers {
+	margin-left: 20px;
+}
+
+#home, #about, #contact, #blog, #careers {
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#requestinvite, #requestinvite1, #requestinvite2 {
+   width: 170px;
+   height: 50px;
+   background: linear-gradient(
+   90deg,
+   #00e6ac,
+   #00cc99,
+   #39c6c6,
+   #4db3b3
+   );
+   border-color: linear-gradient(
+   90deg,
+   #00e6ac,
+   #00cc99,
+   #39c6c6,
+   #4db3b3
+   );
+   color: white;
+   font-weight: bold;
+   border-radius: 20px;
+   margin-left: 300px;
+   cursor: pointer;
+}
+
+#requestinvite1 {
+	color: white;
+	margin-left: 0;
+}
+
+#container {
+	background-color: #eeeeee;
+	box-shadow: 0 0 5px 30px #eeeeee;
+	padding-left: 90px;
+	display: flex;
+}
+
+#ontheleft h1 {
+	font-weight: 400;
+	font-size: 70px;
+}
+
+#ontheleft p, #container1 p {
+	font-size: 20px;
+}
+
+#ontheright img {
+	width: 700px;
+	height: 700px;
+	padding-left: 100px;
+}
+
+#container1 {
+	background-color: #dddddd;
+	padding-left: 90px;
+	box-shadow: 0 0 30px 35px #dddddd;
+}
+
+#container2 {
+	background-color: #eeeeee;
+	box-shadow: 0 0 30px 70px #eeeeee;
+	padding-left: 90px;
+}
+
+#container1 h3, #container2 h1, #container2 h3 {
+	font-weight: 400;
+	font-size: 50px;
+}
+
+#container2 h3 {
+	font-size: 35px;
+}
+
+#container101 {
+	display: flex;
+}
+
+#container101 div {
+	margin-left: 40px;
+}
+
+#container2 img {
+	width: 300px;
+	height: 300px;
+}
+
+#container202 {
+	display: flex;
+}
+
+#container202 div {
+	background-color: white;
+	padding: 10px;
+	margin-right: 30px;
+	
+}
+
+#container2 p {
+	font-size: 20px;
+}
+
+#container3 {
+	background-color: #00004d;
+	color: white;
+	display: flex;
+}
+
+#container3 input {
+	padding-left: 10px;
+	padding-top: 40px;
+}
+
+#section2, #section3, #section4 {
+	padding-left: 200px;
+}
+
+#requestinvite2 {
+	margin-left: 0;
+}
+
+#section4 {
+	padding-top: 20px;
+	margin-left: 250px;
+}
+
+#section4 p {
+	color: #aaaaaa;
+}
+
+#article1, #article2, #article3, #article4 {
+	cursor: pointer;
+}
