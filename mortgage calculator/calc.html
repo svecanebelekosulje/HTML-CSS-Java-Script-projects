@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>mortgage calc</title>
+  <link rel='stylesheet' href='calc.css'>
+</head>
+<body>
+  <div id='container'>
+    <div id='left'>
+	 <div id='flex01'>
+	 <h1>Mortgage Calculator</h1>
+	 <button id='clear'>Clear All</button>
+	 </div>
+	 
+	 <form id='section1'>
+	 <label>Mortgage Amount</label>
+	 <br><br>
+	  <div>
+	  <button id='btn01'>$</button><input type='text' id='amount' required>
+	  </div>
+	 </form>
+	 <p id='required1'>This field is required</p>
+	 
+	 <br><br>
+	  <div id='section2'>
+	   <div>
+	   <label>Mortgage Term</label><br><br>
+	   <input type='text' id='term'required><button id='btn02'>years</button>
+	   <p id='required2'>This field is required</p>
+	 </div>
+     
+	 <div>
+	  <label>Interest Rate</label><br><br>
+	  <input type='text' id='rate'required><button id='btn03'>%</button>
+	  <p id='required3'>This field is required</p>
+	 </div>
+	</div>
+
+	<br>
+	<div id='section3'>
+	  <label>Mortgage Type</label><Br>
+	  <br>
+	  <div>
+	  <fieldset>
+	  <input type='radio' name='type' id='type1' required>
+	  <b>Repayment</b>
+	  </fieldset>
+	  </div>
+	  <br>
+	  <div>
+	  <fieldset>
+	  <input type='radio' name='type' id='type2' required>
+	  <b>Interest Only</b>
+	  </fieldset>
+	  <p id='required4'>This field is required</p>
+	  </div>
+	
+	</div>
+	<br><br>
+	<button id='calculate'><b>Calculate Repayments</b></button>
+	<br><br>
+  </div>
+  
+  <div id='right'>
+   <div id='right01'>
+   <br>
+    <img src='file:///C:/Users/STRONG/Downloads/mortgage-repayment-calculator-main/assets/images/illustration-empty.svg'>
+	<br>
+	<h1>Results shown here</h1>
+	<p>Complete the form and click 'calculate repayments' to see what your monthly repayments would be</p>
+  </div>
+
+  
+   <div id='results'>
+ 
+<h1>Your results</h1>
+<p>Your results are shown below based on the information you provided. To adjust the results, edit the form and click 'calculate repayments' again</p>
+
+<div id='border'>
+<p>Your monthly repayments</p>
+<h3 id='monthlyrepayments'><h3>
+
+<hr>
+<p>Today you'll repay over the term</p>
+<h3 id='totalrepayment'></h3>
+</div>
+ </div>
+ </div>
+ 
+
+  <script src='calc.js'></script>
+</body>
+</html>
